@@ -13,3 +13,14 @@ all the gems rails uses are lsited here . These gems are contributed by all the 
 
 you can also find a lot of gem on github.All you need is to viist github repos of relevant functionality to find the desired code. 
 
+There are 1000's of gems available for development. We are reuse them for our project instead of creating it from scratch .
+
+
+rubyonrails.org => offical website of ROR
+
+=> Go through official ROR documentation.
+for in depth guide = > guides.rubyonrails.org
+
+
+
+
