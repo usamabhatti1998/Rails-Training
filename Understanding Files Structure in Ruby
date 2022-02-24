@@ -1,0 +1,49 @@
+App Folder:
+
+Models
+Views 
+Controllers
+All will be lisited here. 
+
+
+In views, there will be an Apllication.html.erb that ahs both ruby and html in it. <= singn in that field denotes presence of ruby.
+
+Rails Server:
+
+Type =>  rails server OR rails s 
+
+Go the localhost:3000 will be root route of application in development.
+
+Root Route: route where applciation goes by default. Not just in ruby but every application. BASE URL
+
+
+To Route as per our choice:
+
+We will adjust routes for our applcaition.  
+For setting routes, we will go to config files
+
+Main Folder > Config > routes.rb
+
+by default there will be no routes set, so we will set our own. 
+
+FLOW OF A REQUEST:
+
+
+First of all, a reques tis recieved by routes file. it directs that request to relvant controller and controller sruns the specific function in it. 
+
+for example, we have set the root folder to 
+"pages#welcome"
+
+now this will go to controllers, adn find pages controller, inside the pages controller it will find the the function named as one after #. that is welcome in our case.
+
+
+If localhost:3000 is requested, 
+then go to pages controller and inside the pages controller, run the welcome function. 
+
+
+
+ 
+
+
+
+
