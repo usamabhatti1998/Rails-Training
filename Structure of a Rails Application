@@ -1,0 +1,8 @@
+Assets:
+This is the file where static assets are stored.
+
+
+=> No matter how many controllers we create, all the controllers are going to inherit the application controller
+
+
+
