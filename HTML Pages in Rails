@@ -1,0 +1,16 @@
+Rails Tempaltes:
+
+
+In App > Layouts > Application.html.erb
+
+you will find the html that is added to each and every page. 
+only part that varies page to page is the content that i added in   <%= yield %> tag. 
+
+So if we want to create headers and footers, we can add those is  App > Layouts > Application.html.erb adn it will be imported all over the app.
+
+
+Create a route automatically: rails generate controller home index
+
+
+
+Now if we want to create a route manually:
