@@ -10,5 +10,13 @@ Rails uses ORM Object Relational Mapper => Called ActiveRecord
 It a middleman between database and and rails app. It helps to commmunicatbetween rails code and database.
 
  It enables us to use the rails code to manipulate the database.
+ 
+ 
+ 
+ 
+ => Command to Create Scaffold:
+ 
+ rails generate scaffold Article title:string description:text
+
 
 
