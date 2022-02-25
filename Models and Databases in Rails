@@ -5,3 +5,8 @@ A database in which differetn tables are linked with each other by any common co
 such as student ID will be common in class grade list and library record of the university. 
 
 
+Rails uses ORM Object Relational Mapper => Called ActiveRecord
+
+It a middleman between database and and rails app.
+
+
