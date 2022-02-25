@@ -7,6 +7,8 @@ such as student ID will be common in class grade list and library record of the 
 
 Rails uses ORM Object Relational Mapper => Called ActiveRecord
 
-It a middleman between database and and rails app.
+It a middleman between database and and rails app. It helps to commmunicatbetween rails code and database.
+
+ It enables us to use the rails code to manipulate the database.
 
 
