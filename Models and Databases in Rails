@@ -1,0 +1,7 @@
+Database and models form up the backend of our App.
+
+Concept of Relational Database:
+A database in which differetn tables are linked with each other by any common column. 
+such as student ID will be common in class grade list and library record of the university. 
+
+
