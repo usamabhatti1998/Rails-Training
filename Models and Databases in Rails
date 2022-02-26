@@ -37,6 +37,12 @@ It a middleman between database and and rails app. It helps to commmunicatbetwee
  rails generate scaffold Article title:string description:text
  scaffold will create everyhthing we need to get started with crud in a single go.
  but in case we want to create manually, we will follow other path. 
+ 
+ 
+ 
+ USAGE OF RAILS DB:ROLLBACK 
+ If you have created a migration and then you specify the data fiueld in it and migrate . After migrating and onc eall the data schema has been added then you want to ndo the last migration you have done then you use this command. 
+ 
 
 
 
