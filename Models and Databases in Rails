@@ -7,6 +7,24 @@ such as student ID will be common in class grade list and library record of the 
 
 Rails uses ORM Object Relational Mapper => Called ActiveRecord
 
+
+=> In rails database, ID will be maintained by rails and each record will have a a scepcific ID. ID will be primary key of every rails DB table. 
+ we will have to create a migration file for creating DB manually. 
+ 
+ -- Creating migration file;'
+ 
+ rails generate migration create_articels
+ 
+ 
+ --To run migration file=> running it will creat a table
+ rails db:migrate
+ 
+ NOTE: Rails will  only eecute the migration file sthat have not been run already.
+ 
+After you have run this command to migrate, you will get to see the schema code in the file right below the DB. 
+
+
+
 It a middleman between database and and rails app. It helps to commmunicatbetween rails code and database.
 
  It enables us to use the rails code to manipulate the database.
@@ -17,6 +35,9 @@ It a middleman between database and and rails app. It helps to commmunicatbetwee
  => Command to Create Scaffold:
  
  rails generate scaffold Article title:string description:text
+ scaffold will create everyhthing we need to get started with crud in a single go.
+ but in case we want to create manually, we will follow other path. 
+
 
 
 
