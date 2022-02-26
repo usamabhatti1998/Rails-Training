@@ -25,7 +25,7 @@ After you have run this command to migrate, you will get to see the schema code 
 
 
 
-It a middleman between database and and rails app. It helps to commmunicatbetween rails code and database.
+It a middleman between database and and rails app. It helps to commmunicat between rails code and database.
 
  It enables us to use the rails code to manipulate the database.
  
@@ -42,7 +42,10 @@ It a middleman between database and and rails app. It helps to commmunicatbetwee
  
  USAGE OF RAILS DB:ROLLBACK 
  If you have created a migration and then you specify the data fiueld in it and migrate . After migrating and onc eall the data schema has been added then you want to ndo the last migration you have done then you use this command. 
- 
+Then you can run the migration file again. 
+
+RECOMMENDATION:
+This mehtod is not recommneded, instead you should creat new migration fields everytime.  
 
 
 
