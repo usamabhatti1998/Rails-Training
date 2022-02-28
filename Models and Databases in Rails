@@ -15,6 +15,10 @@ Rails uses ORM Object Relational Mapper => Called ActiveRecord
  
  rails generate migration create_articels
  
+ in db>migrate > file
+ 
+ you will find the newly created migration and ad the fields you want in that. After you ahve added the field in it, you just need ot migrate it. 
+ 
  
  --To run migration file=> running it will creat a table
  rails db:migrate
