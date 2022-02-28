@@ -27,4 +27,14 @@ my_record.save
 NOTE: MAKE SURE YoU SAVE IT AFTER EVERY ROUOND OF CHANGES
 
 
+To Delete a Record, We will use destroy method. 
+command goes as 
+
+=> my_record.destroy
+
+
+
+
+
+
 
