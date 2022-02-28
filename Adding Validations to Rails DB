@@ -1,2 +1,15 @@
 
 Validations enforce constraints on your model so you can have greater control on what you are allowing as data to be saved in your database/tables.
+Normally we are able to creat the record of any type but we have to apply condition so that only the record meeting specific criteria are added to DB.
+
+in the model file of the specific table where ther eis a class like 
+
+Class Blogs
+# validates "field" , "validate for what?"
+validates :title, presence: tr
+
+end
+
+this will make sure that only record with titles are accepted. 
+
+
