@@ -3,3 +3,28 @@ className.all
 
 => Blog.all
 
+
+to find specific field:
+
+Article.find(1)    //with id 1
+Article.first
+Artilce.last
+
+
+You can also store values in variables:
+
+
+my_record = article.find(1)
+
+now we can access the fields of my_record.title and my_record.description as there are getters and setters by defaults. 
+
+We can also modify the values:
+
+my_record.title = "New Title"
+my_record.save  
+
+
+NOTE: MAKE SURE YoU SAVE IT AFTER EVERY ROUOND OF CHANGES
+
+
+
