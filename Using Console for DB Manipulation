@@ -57,9 +57,8 @@ this command will save the data to DB
 Method 3:
  To avoid assigning values in seperate lines:
  
- Blog.new(title: "bla bla bla" , description : "bla bla bla")
- 
- This way it will set the values in single line. 
+article = Article.new(title: "third article", description: "description of third article")
+article.save
 
 
 
