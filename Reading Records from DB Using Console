@@ -1,0 +1,5 @@
+To Print All Available Records:
+className.all
+
+=> Blog.all
+
