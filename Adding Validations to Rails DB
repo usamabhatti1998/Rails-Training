@@ -1,1 +1,2 @@
 
+Validations enforce constraints on your model so you can have greater control on what you are allowing as data to be saved in your database/tables.
