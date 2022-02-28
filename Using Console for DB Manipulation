@@ -1,0 +1,56 @@
+First of all Opne Rails Console:
+
+
+=> Rails c
+
+
+-TO PRINT ALL THE EXISTING RECORDS:
+
+=> className.all
+
+in our Case:
+=> Blog.all
+
+This will show following: 
+ (1.6ms)  SELECT sqlite_version(*)
+  Blog Load (0.3ms)  SELECT "blogs".* FROM "blogs"     
+  as it runs a SQL Query
+  
+  
+  
+  Create a Record:
+  
+  Method 1:
+  
+  ClassName.create(topic:"bla bla bla" , description: "bla bla bla")
+
+In Our Case:
+  
+Blog.create(topic: "How to Learn Rails" , description: "To Learn Rails, You Hvae to Take U
+demy COurses")
+
+NOTE: your field may vary based on the type and anmeof field you have scpecified earlier in the schema  and model file 
+
+ID will be added manually by rails. 
+
+
+
+Method 2:
+This is hte preffered way fo creating objects. 
+in thsi methdo we will use a variable and that varable will be an instance of the DB class, in our case, BLog classs. 
+
+so it will go like:
+
+blog= Blog.new
+
+blog.title = "Sample Title"
+
+blog.description = " Sample Description "
+
+NOTE: These Data is only in the objects, not on db, so if we will print "blog" , it will just show us the value we set so to make sure it gets save to databse and and it shows us the fields that ar eset by rais , then we have to 
+=>blog.save 
+this command will save the data to DB
+
+
+
+
