@@ -1,0 +1,8 @@
+To Check Routes Available:
+
+=> rails routes --expanded 
+
+
+
+You have to analyze that what are available routes and their concerned functions 
+
