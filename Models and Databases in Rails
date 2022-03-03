@@ -34,6 +34,15 @@ It a middleman between database and and rails app. It helps to commmunicat betwe
  It enables us to use the rails code to manipulate the database.
  
  
+After doing all this, ont fprget to add a new file under 
+app>model wihth the name of the Article.rb if you ahve created a migration names as create_articles. 
+and inside that file, please add follwing content:
+
+
+class Article  < ApplicationRecord
+ 
+ 
+ end
  
  
  => Command to Create Scaffold:
