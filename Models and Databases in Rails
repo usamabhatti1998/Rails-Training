@@ -44,6 +44,8 @@ class Article  < ApplicationRecord
  
  end
  
+ => this  class name will be  used to retireiv ethe data of this table when you will use it in rials console to retrieve the records. Classname is important
+ 
  
  => Command to Create Scaffold:
  
