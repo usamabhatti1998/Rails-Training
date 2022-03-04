@@ -1,0 +1,36 @@
+Rails.application.routes.draw do   root 'pages#home'   get 'about', to: 'pages#about'   resources :articles, only: [:show, :index, :new, :create] 
+
+You will need to add the new and create actions in the articles_controller.rb file like below:
+
+def new
+end
+ 
+def create 
+end 
+
+
+You will also need to create a view template for the new view. So, in the app/views/articles folder create a new file called new.html.erb and fill it in like below:
+
+<h1>Create a new article</h1>
+ 
+<%= form_with scope: :article, url: articles_path, local: true do |f| %>
+
+#in URL section we have written articles_path becuase the for action is throwing a POST request to /article, the URL path become articles_path
+  <p> 
+    <%= f.label :title %><br/> 
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :description %><br/> 
+    <%= f.text_area :description %> 
+  </p>
+  <p>
+    <%= f.submit %> 
+  </p>
+<% end %>
+
+
+After pressing on SUBMIT button, the action is hadnels by Article#create sso in def create, we will add
+rander plain : params[ :articles]
+
+we will output only the :article because param string has a lot of indexes but :articles index will contain the valeus we just submitted. 
