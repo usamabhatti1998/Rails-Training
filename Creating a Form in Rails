@@ -34,3 +34,12 @@ After pressing on SUBMIT button, the action is hadnels by Article#create sso in 
 rander plain : params[ :articles]
 
 we will output only the :article because param string has a lot of indexes but :articles index will contain the valeus we just submitted. 
+
+
+TO SAVE IT IN DATABSE:
+
+def create 
+  @article = Article.new(params.require(:article).permit(:title, :description)) #by efault, no ariale are allowed to be displayed in  a rails views unless we manually allow them and specify which values and fields are allwoed
+    @article.save  #save the object to database
+    redirect_to @article #tellils that at the end, load this view
+end
