@@ -1,0 +1,31 @@
+1- Install bootstrap:
+yarn add bootstrap@5.1.3 jquery popper.js
+
+
+
+
+2- Add 
+*= require bootstrap
+ to application.css
+ 
+3- Add 
+ import "bootstrap" 
+ to application.js
+ 
+4- Make the config/webpack/environment.js file look like below (you are adding the lines which are highlighted in green below):
+
+const { environment } = require('@rails/webpacker')
+
+const webpack = require("webpack")
+
+environment.plugins.append("Provide", new webpack.ProvidePlugin({
+
+$: 'jquery',
+
+jQuery: 'jquery',
+
+Popper: ['popper.js', 'default']
+
+}))
+
+module.exports = environment
