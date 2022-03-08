@@ -29,3 +29,11 @@ Popper: ['popper.js', 'default']
 }))
 
 module.exports = environment
+
+
+
+
+Take a good care of version that are compatible with this:
+follow this blog https://www.mashrurhossain.com/blog/rails6bootstrap4
+word to word along with an extra command:
+=> @popperjs/core
