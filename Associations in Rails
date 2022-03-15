@@ -1,0 +1,21 @@
+Previosuly we were using only the articles table, now we willitroduce a new table named as user.
+
+User will have 
+User ID - Name - Email - Password
+
+How this is gonna be linked to articles table: 
+
+Realtions is: Every article is created by any user so we will change article table to:
+
+ID - Title - Description - User_Id
+
+User_Id => Primary Key in User Table and Foreign Key in Articles Table. 
+
+User Tabel ---- Article Table is one to many relationship because:
+
+User has many articles, one article has only one user. 
+
+
+
+
+
