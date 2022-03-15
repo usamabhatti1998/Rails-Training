@@ -58,4 +58,16 @@ we have to add
    add 
        belongs_to :user
        as each artilce belogns to a user. 
+       
+       
+       
+      now we will check the link of both the tables by perofmring following stuff:
+      
+      user_1 = User.first  #copies hte first index in User table. 
+      
+      user_1.article #this will not retunr annnn error as both the tables ar elinked now and user_1 has no articles saved against it. 
+      
+      
+       
+  
   
