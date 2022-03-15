@@ -44,3 +44,18 @@ and you will see an epty user_id field in all.
 make sure you run rials consile again after making changes. 
   
   
+  
+ 
+now we have to make some changes in model files as well, 
+
+in App>model
+
+inside user model:
+we have to add 
+   has_many :articles
+   
+   inside artilce,rb file:
+   add 
+       belongs_to :user
+       as each artilce belogns to a user. 
+  
