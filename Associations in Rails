@@ -39,5 +39,8 @@ this will create a migration file under the DB , in that migration file, below t
   to check if changes have taken effect, open rails consile and check 
 Articles.all
 and you will see an epty user_id field in all. 
+
+
+make sure you run rials consile again after making changes. 
   
   
