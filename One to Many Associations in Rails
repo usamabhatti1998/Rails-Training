@@ -1,0 +1,27 @@
+
+
+Start with creating a scaffold User with field username type string:
+command for it is: 
+
+=> rails generate scaffold User username:string
+After you run this command, you will see a migraiton in db> migrate folder, now we need ot run that migration so to run the migration:
+
+=> rails db:migrate
+
+it will create a user table.and you can check in App> models> User.rb file. 
+it will be created automatically.
+
+
+
+now to check:
+
+rails c
+
+User.all  #because name of User in class user.rb
+
+This will give us a list of all the records. 
+
+For checking purpose, create 2 users by . 
+User.create(username: "Usama")
+User.create(username: "Bhatti")
+
